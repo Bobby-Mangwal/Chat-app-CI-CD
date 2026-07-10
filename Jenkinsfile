@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stage('Approval') {
+        stage('test') {
             steps {
                 input "Deploy to Production?"
             }
